@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp /vagrant/VagrantScripts/vagrant-nginx.conf /etc/nginx/sites-enabled/vagrant-nginx.conf
+sudo cp /vagrant/VagrantScripts/vagrant-nginx.conf /etc/nginx/sites-enabled/vagrant-nginx.conf
 
 sudo rm /etc/nginx/sites-enabled/default
 

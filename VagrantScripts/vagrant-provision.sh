@@ -17,15 +17,19 @@ git config --global user.email "vagrant@wesleyhurd.com"
 git config --global user.name "Vagrant"
 
 #Install/Setup php5-xdebug
-#/vagrant/VagrantScripts/xdebug_setup.sh
+/vagrant/VagrantScripts/xdebug_setup.sh
 
 #Install/Setup phpmyadmin
 /vagrant/VagrantScripts/phpmyadmin_setup.sh
 
 #Install/Setup elasticsearch
-#/vagrant/VagrantScripts/elasticsearch_setup.sh
+/vagrant/VagrantScripts/elasticsearch_setup.sh
 
 #Install/Setup NodeJS scripts
-#/vagrant/VagrantScripts/nodejs_setup.sh
+/vagrant/VagrantScripts/nodejs_setup.sh
 
 #configure nginx
+/vagrant/VagrantScripts/nginx_configure.sh
+
+#install composer globally
+/vagrant/VagrantScripts/composer_setup.sh
